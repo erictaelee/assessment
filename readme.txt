@@ -3,7 +3,7 @@ For the hypothetical situation, a FED has been working on a project but got pull
 
 Here's what the FED has to say:
 
-This is where we got to in the cut, but we are having problems and haven't been able to fully test. 
+This is where we allgot to in the cut, but we are having problems and haven't been able to fully test. 
 Can you help us resolve the following issues as well as help catch if we missed something?
 The client is very particular about having fast page speed, good SEO, and wants interesting interactive pieces.
 Support wise they also want to have this page look right in browsers that are over 5% of the browser stats for the US over the past couple of months
