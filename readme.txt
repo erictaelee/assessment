@@ -43,3 +43,10 @@ Responsive:
 The client is very active in the project and wants a technical breakdown of what you did and how you resolved the missing items. 
 So we need a writing assessment as well as the code above. 
 They also want to know how the design UI/UX and FED code practices could be improved down the road, so please include that as well in your writing. 
+
+
+
+
+Font: I've googled the Allura and Alex Brush font and found the link that had these fonts. Copied and pasted it into the <head> tag.
+Site logos: I've chosen SVG file over PNG becuase SVG is easily scalable at high resolution without losing quality and the file size does not change. The downside is that the SVG file struggles with older browsers, however the client is using retina screens, which means they are using a newer device.
+Icons: I've removed the 'visually-hidden' class that hides the icon and added an internal image. 
