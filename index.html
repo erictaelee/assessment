@@ -8,11 +8,21 @@
 
         <link rel="stylesheet" href="css/normalize.min..css"/>
         <link rel="stylesheet" href="css/main.css"/>
+        <link rel="stylesheet" href="css/normalize.min..css"/>
         <link rel="preconnect" href="https://fonts.gstatic.com">
+        <!-- Allura and Alex Brush font -->
         <link href="https://fonts.googleapis.com/css2?family=Allura&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap" rel="stylesheet">
         <!-- Font Awesome Kit -->
         <script src="https://kit.fontawesome.com/42b5f47478.js" crossorigin="anonymous"></script>
+        <!-- Bootstrap CSS-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <!-- JavaScript -->
+        <script src="js/main.js"></script>
+        <!-- Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
         
     </head> 
     <body>
@@ -40,6 +50,7 @@
                             <!-- need a cart icon -->
                             <span class=""><img src="images/shopping-cart.svg" alt=""></span>
                         </a>
+                            <!-- Hamburger menu  -->
                         <a href="#" class="menu-toggle">
                             <span class="hamburger"><div></div></span>
                         </a>
@@ -116,10 +127,18 @@
 
                 <div class="slideshow">
                     <section class="slideshow__slide slide">
+                        <figure class="slide__bg slideshow__item--visible">
+                            <img src="images/bb-slideshow-example-1.jpg" />
+                            <figcaption>Baby Dean - Wheaton, illinois</figcaption>
+                        </figure>
                         <figure class="slide__bg">
                             <img src="images/bb-slideshow-example-1.jpg" />
                             <figcaption>Baby Dean - Wheaton, illinois</figcaption>
                         </figure>
+                    <div class="slideshow__actions">
+                        <button id="slideshow__button--prev" aria-label="Previous slide"><</button>
+                        <button id="slideshow__button--next" aria-label="Next slide">></button>
+                    </div>    
                         <div class="slide__content">
                             <a href="#" class="cta">
                                 <h2 class="cta__title">Crib Bedding Sale</h2>
@@ -129,6 +148,16 @@
                         </div>
                     </section>
                     <!-- need another slide and to setup slideshow functioanlity -->
+
+                    
+
+
+
+
+               
+
+
+
                 </div>
 
                 <section class="featured-widget">
@@ -239,7 +268,7 @@
                         <div class="site-social">
                             <h2>Follow Us</h2>
                             <ul class="social-list">
-                                <!-- Deleted list items to align them in straight lines and added images -->
+                                <!-- Deleted list items to align them in straight lines and added icons -->
                                     <a href="#" ><img src="images/social-facebook.png"></a>   
                                     <a href="#"><img src="images/social-twitter.png"></a>
                                     <a href="#"><img src="images/social-pintrest.png"></a>                             
@@ -260,24 +289,24 @@
                     </div>
 
                 </div>
-                <div class="footer-bottom">
-
-                    <div class="page-footer__column">
-                        <div class="copyright">
-                            <p><span class="copyright__text">@2013 Beautiful Beginnings. All Rights Reserved</span> <a href="#">Site Map</a> <a href="#">Privacy Policy</a> <a href="#">Terms &amp; Conditions</a></p>
-                            <p class="ae-logo"><img src="images/powered-by-americaneagle.png" /> Web Site design and development by Americaneagle.com</p>
-                        </div>
-                    </div>
-
-                    <div class="page-footer__column">
-                        <div class="site-logo">
-                            <img src="images/bb-logo.png">
-                        </div>
-                    </div>
-
-                </div>
             </footer>
-            <p>helllloooo</p>
+            <div class="footer-bottom">
+
+                <div class="page-footer__column">
+                    <div class="copyright">
+                        <p><span class="copyright__text">@2013 Beautiful Beginnings. All Rights Reserved</span> <a href="#">Site Map</a> <a href="#">Privacy Policy</a> <a href="#">Terms &amp; Conditions</a></p>
+                        <p class="ae-logo"><img src="images/powered-by-americaneagle.png" /> Web Site design and development by Americaneagle.com</p>
+                    </div>
+                </div>
+
+                <div class="page-footer__column">
+                    <div class="site-logo">
+                        <img src="images/bb-logo.png">
+                    </div>
+                </div>
+
+            </div>
+            
         </div>
     </body>
 </html>

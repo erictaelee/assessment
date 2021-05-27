@@ -604,6 +604,7 @@
             -webkit-box-shadow:inset 0 0 0 1px #f0f0f0;
                     box-shadow:inset 0 0 0 1px #f0f0f0; 
         }
+        .slideshow .slidesh
 
         .slide__bg img { display:block; }
         .slide__bg figcaption {
@@ -613,6 +614,38 @@
             font-family:"Alex Brush", cursive;
             font-size:18px;
             font-size:1.125rem;
+        }
+        .slideshow .slide__bg,
+        .slideshow .slide__bg--hidden {
+            display: none;
+        }
+
+        .slideshow .slideshow__item--visible {
+            display: block;
+        }
+        .slideshow .slideshow__actions {
+            display: flex;
+            width: 100%;
+            justify-content: space-between;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+
+        .slideshow .slideshow__actions button {
+            border-radius: 50px;
+            border: 0;
+            font-weight: bold;
+            cursor: pointer;
+            width: 40px;
+            height: 40px;
+        }
+
+        .slideshow .slideshow__actions button#slideshow__button--prev {
+            margin-left: 20px;
+        }
+        .slideshow .slideshow__actions button#slideshow__button--next {
+            margin-right: 20px;
         }
 
         .slide__content {
