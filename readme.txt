@@ -48,17 +48,22 @@ They also want to know how the design UI/UX and FED code practices could be impr
 
 
 Font: I've googled the Allura and Alex Brush font and found the link that had these fonts. Copied and pasted it into the <head> tag.
-Site logos: I've chosen SVG file over PNG becuase SVG is easily scalable at high resolution without losing quality and the file size does not change. The downside is that the SVG file struggles with older browsers, however the client is using retina screens, which means they are using a newer device.
+Site logos: I've chosen SVG file over PNG because SVG is easily scalable at high resolution without losing quality and the file size does not change. The downside is that the SVG file struggles with older browsers, however the client is using retina screens, which means they are using a newer device.
 
 Site Icons: I've removed the 'visually-hidden' class that hides the icon. Then added font awesome kit's code into the <head> and added the search icon. I did not know how to make the hamburger lines so had to google and followed the instruction.
 
-Navigation: Pending response
+Navigation: Pending response. Transition all 0.4s ease;
 
-Slideshow: Pending response
+Slideshow: I could've used bootstrap carousel and css but wouldn't have worked for all browsers. I've set the current slide position to 0 and created a function to increment when clicked next and decrement when clicked previous. Had to look up some syntax and logic on google.
 
 Footer:
   - Social media icons need to be setup so some html changes there to put them in is fine. Deleted list items <li> to align them.
   - Expander accordion Javascript functionality hasn't been setup or styled
   - Footer bottom area: we unfortunately can't pull the html content out of its location
      - Can we style up the setup so it matches the desktop and mobile styles
-   
+
+
+Responsive:
+  - For some reason the site isn't switching over to "mobile" styles in devices - added meta viewport 
+  - Also when you shrink down the browser some sort of content is causing a horizontal scrollbar in smaller screens
+  - In between sizes for tablet portrait feel fairly empty, is there something we can style to make them look better
