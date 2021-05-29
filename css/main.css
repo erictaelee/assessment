@@ -128,7 +128,7 @@
                     justify-content: center;
         }
 
-        .header-bottom { display:none; }
+        .header-bottom { display:; }
 
         @media (min-width:64em) {
             .page-header { border:0; }
@@ -527,6 +527,22 @@
         .menu-toggle .hamburger > div:after {
             top: 10px;
         } 
+
+        /* Hamburger Method 2 */
+        label {
+            display: block;
+            cursor: pointer;
+        
+        }
+        .menu-mobile {
+            text-align: center;
+            width: 100%;
+        }
+        .menu-mobile a {
+            display: block;
+
+        }
+
         @media (min-width:64em) {
             .header-toggles--mobile { display:none; }
         }
