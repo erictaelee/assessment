@@ -277,6 +277,7 @@
         .footer-bottom p {
             margin:0 0 .8em;
             color:#999;
+            text-align:
         }
 
         @media (min-width:64em) {
@@ -303,10 +304,17 @@
         @media (max-width:63.9em) {
 
 
-            .exapander {
+            /* .exapander {
                 width: 90%;
                 max-width: 1000px;
                 margin: 2rem auto;
+                
+            } */
+            .expander__toggle {
+                border-bottom:1px solid #e6e6e6;
+                width: 240%;
+                line-height: 2em;
+                
             }
         
             .expander__toggle::after {
@@ -325,6 +333,7 @@
             .expander__toggle.active + .expander__panel {
                 display: block;
             }
+
         }
        
     

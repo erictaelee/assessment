@@ -58,7 +58,7 @@ Slideshow: I could've used bootstrap carousel and css but wouldn't have worked f
 
 Footer:
   - Social media icons need to be setup so some html changes there to put them in is fine. Deleted list items <li> to align them.
-  - Expander accordion Javascript functionality hasn't been setup or styled
+  - Expander accordion Javascript functionality hasn't been setup or styled -Added CSS to toggle 'active' when clicked then added JS logic to show the list when the toggle is set active.
   - Footer bottom area: we unfortunately can't pull the html content out of its location
      - Can we style up the setup so it matches the desktop and mobile styles
 
