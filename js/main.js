@@ -1,3 +1,4 @@
+//Carousel 
 let slidePosition = 0;
 const slides = document.getElementsByClassName('slide__bg');
 const totalSlides = slides.length;
@@ -38,3 +39,13 @@ function moveToPrevSlide() {
   }
   updateSlidePosition();
 }
+
+//Accordian 
+const expanderToggle = document.querySelectorAll(".expander__toggle");
+
+expanderToggle.forEach(expanderToggle => {
+  expanderToggle.addEventListener("click", event => {
+    expanderToggle.classList.toggle("active");
+
+  });
+});

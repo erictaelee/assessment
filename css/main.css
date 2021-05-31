@@ -128,7 +128,7 @@
                     justify-content: center;
         }
 
-        .header-bottom { display:; }
+        .header-bottom { display:none; }
 
         @media (min-width:64em) {
             .page-header { border:0; }
@@ -299,6 +299,36 @@
                 height:42px;
             }
         }
+        /* Mobile view for expander */
+        @media (max-width:63.9em) {
+
+
+            .exapander {
+                width: 90%;
+                max-width: 1000px;
+                margin: 2rem auto;
+            }
+        
+            .expander__toggle::after {
+                content: "\002B";
+                font-size: 2rem;
+                position: absolute;
+                right: 1rem;
+                color:#7494b7;
+            }
+            .expander__toggle.active::after {
+                content: "\2212";
+            }
+            .expander__panel {
+                display: none;
+            }
+            .expander__toggle.active + .expander__panel {
+                display: block;
+            }
+        }
+       
+    
+        
 
 /*--------------- GLOBALS ---------------*/
 
@@ -501,6 +531,7 @@
             width:32px;
             height:28px;
         }
+       
 
         /* Hamburger Line */
         .menu-toggle .hamburger > div {
@@ -527,6 +558,19 @@
         .menu-toggle .hamburger > div:after {
             top: 10px;
         } 
+
+        input .menu-toggle {
+            width: 40px;
+            height: 40px;
+        }
+        .menu-toggle {
+            display: ;
+        }
+    
+        .menu-toggle:checked .header-bottom {
+            display: block;
+        }
+    
 
         /* Hamburger Method 2 */
         label {
