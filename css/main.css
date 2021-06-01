@@ -128,7 +128,11 @@
                     justify-content: center;
         }
 
-        .header-bottom { display:none; }
+        .header-bottom { display: none; }
+
+        .header-bottom.active {
+            display: block;
+        }
 
         @media (min-width:64em) {
             .page-header { border:0; }
@@ -329,6 +333,7 @@
             }
             .expander__panel {
                 display: none;
+                
             }
             .expander__toggle.active + .expander__panel {
                 display: block;
@@ -543,6 +548,23 @@
        
 
         /* Hamburger Line */
+
+        /* use this one  */
+        .menu-toggle .bar {
+            height: 3px;
+            width: 100%;
+            background-color: black;
+            border-radius: 10px;
+        }
+
+
+
+
+
+
+
+
+
         .menu-toggle .hamburger > div {
             position: relative;
             width: 100%;

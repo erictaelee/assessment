@@ -49,3 +49,11 @@ expanderToggle.forEach(expanderToggle => {
 
   });
 });
+
+//Hamburger
+const menuToggle = document.getElementsByClassName("menu-toggle")[0];
+const navbarLinks = document.getElementsByClassName("header-bottom")[0];
+
+menuToggle.addEventListener("click", () => {
+  navbarLinks.classList.toggle("active")
+})
