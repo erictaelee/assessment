@@ -50,9 +50,9 @@ They also want to know how the design UI/UX and FED code practices could be impr
 Font: I've googled the Allura and Alex Brush font and found the link that had these fonts. Copied and pasted it into the <head> tag.
 Site logos: I've chosen SVG file over PNG because SVG is easily scalable at high resolution without losing quality and the file size does not change. The downside is that the SVG file struggles with older browsers, however the client is using retina screens, which means they are using a newer device.
 
-Site Icons: I've removed the 'visually-hidden' class that hides the icon. Then added font awesome kit's code into the <head> and added the search icon. I did not know how to make the hamburger lines so had to google and followed the instruction.
+Site Icons: I've removed the 'visually-hidden' class that hides the icon. Then added font awesome kit's code into the <head> and added the search icon. 
 
-Navigation: header-bottom css was hidden so I've deleted it. Transition all 0.4s ease;
+Navigation: Created hamburger menu and used JS to toggle menu.
 
 Slideshow: I could've used bootstrap carousel and css but wouldn't have worked for all browsers. I've set the current slide position to 0 and created a function to increment when clicked next and decrement when clicked previous. Had to look up some syntax and logic on google.
 

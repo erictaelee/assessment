@@ -126,6 +126,8 @@
             -webkit-box-pack: center;
                 -ms-flex-pack: center;
                     justify-content: center;
+            font-size: 18px;
+            color: #666666     
         }
 
         .header-bottom { display: none; }
@@ -281,7 +283,7 @@
         .footer-bottom p {
             margin:0 0 .8em;
             color:#999;
-            text-align:
+            text-align: center;
         }
 
         @media (min-width:64em) {
@@ -316,7 +318,7 @@
             } */
             .expander__toggle {
                 border-bottom:1px solid #e6e6e6;
-                width: 240%;
+                width: 100%;
                 line-height: 2em;
                 
             }
@@ -423,6 +425,11 @@
         margin:0;
         padding:0;
         list-style:none;
+    }
+    @media (max-width:64em) {
+        #margin {
+            margin-right: 25;
+        }
     }
 
     .link-list li { margin:1em 0; }
@@ -549,7 +556,6 @@
 
         /* Hamburger Line */
 
-
         .menu-toggle .hamburger > div {
             position: relative;
             width: 100%;
@@ -575,18 +581,6 @@
             top: 10px;
         } 
 
-        input .menu-toggle {
-            width: 40px;
-            height: 40px;
-        }
-        .menu-toggle {
-            display: ;
-        }
-    
-        .menu-toggle:checked .header-bottom {
-            display: block;
-        }
-    
 
         @media (min-width:64em) {
             .header-toggles--mobile { display:none; }
