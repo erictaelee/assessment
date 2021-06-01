@@ -549,21 +549,6 @@
 
         /* Hamburger Line */
 
-        /* use this one  */
-        .menu-toggle .bar {
-            height: 3px;
-            width: 100%;
-            background-color: black;
-            border-radius: 10px;
-        }
-
-
-
-
-
-
-
-
 
         .menu-toggle .hamburger > div {
             position: relative;
@@ -602,21 +587,6 @@
             display: block;
         }
     
-
-        /* Hamburger Method 2 */
-        label {
-            display: block;
-            cursor: pointer;
-        
-        }
-        .menu-mobile {
-            text-align: center;
-            width: 100%;
-        }
-        .menu-mobile a {
-            display: block;
-
-        }
 
         @media (min-width:64em) {
             .header-toggles--mobile { display:none; }
