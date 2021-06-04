@@ -280,10 +280,26 @@
             text-transform:uppercase;
         }
 
+        @media (max-width:63.8em) {
+            .footer-bottom {
+                text-align: center;
+                display: block;
+                width: 100%;
+            }
+            /* .site-logo {
+                margin-top: -80px;
+            };    */
+            .ae-logo {
+               /* display: none; */
+            } 
+            .copyright__text {
+                margin-top: 100px;
+            }
+        }
+
         .footer-bottom p {
             margin:0 0 .8em;
             color:#999;
-            text-align: center;
         }
 
         @media (min-width:64em) {
